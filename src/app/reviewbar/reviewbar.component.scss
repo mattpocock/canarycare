@@ -1,0 +1,57 @@
+.reviews__backdrop {
+    background-image: url('https://www.canarycare.co.uk/static/img/clouds/cloud02.png?9955d7eaddab'),url('https://www.canarycare.co.uk/static/img/clouds/cloud01.png?9955d7eaddab'),url('https://www.canarycare.co.uk/static/img/clouds/cloud02.png?9955d7eaddab');
+    background-color: #E4F9FB;
+    background-position: 5% 80%,20% 10%,90% 45%;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    position: relative;
+    animation: fadeIn 2s;
+}
+
+.review-body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    text-align: center;
+
+    i {
+        color: #FF9500;
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    h4 {
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    a {
+        background-color: #FF9500;
+        border: none;
+        border-radius: 6px;
+        padding: 7px 13px;
+        cursor: pointer;
+        color: white;
+        font-size: 16px;
+        display: inline-block;
+        text-decoration: none;
+        opacity: 0.8;
+    
+        &:hover {
+            background-color: #CC7700;
+        }
+    
+        &:visited {
+            color: white;
+        }
+    }
+}

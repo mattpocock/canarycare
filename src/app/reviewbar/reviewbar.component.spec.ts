@@ -3,21 +3,21 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { EventbarComponent } from './eventbar.component';
+import { ReviewbarComponent } from './reviewbar.component';
 
-describe('EventbarComponent', () => {
-  let component: EventbarComponent;
-  let fixture: ComponentFixture<EventbarComponent>;
+describe('ReviewbarComponent', () => {
+  let component: ReviewbarComponent;
+  let fixture: ComponentFixture<ReviewbarComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ EventbarComponent ]
+      declarations: [ ReviewbarComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EventbarComponent);
+    fixture = TestBed.createComponent(ReviewbarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

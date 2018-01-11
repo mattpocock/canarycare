@@ -1,22 +1,75 @@
+// Animations
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    } to {
+        opacity: 1
+    }
+}
+
+// Elements
+
 .banner {
-    background-image: url('https://canarycare.co.uk/media/banners/1170x400_Check_In.png.750x350_q95_crop-25%2C10_upscale.jpg');
-    background-size: cover;
+    background-size: cover !important;
     height: 400px;
     position: relative;
 
     @media only screen and (max-width: 668px) {
         height: 200px;
     }
+    animation: fadeIn 2s;
 }
 
-.banner__headline {
-    height: 60px;
-    line-height: 60px;
-    font-size: 60px;
+.banner__text {
     padding: 0;
     margin: 0;
     position: absolute;
     top: 50%;
-    left: 75px;
+    right: 75px;
+    width: 315px;
+    text-align: right;
     transform: translateY(-50%);
+}
+
+.align-left {
+    left: 75px;
+    right: 0;
+}
+
+.banner__headline {
+    line-height: 30px;
+    font-size: 26px;
+    margin: 0;
+    font-weight: bold;
+    display: block;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.banner__desc {
+    display: block;
+    position: relative;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.banner__button {
+    background-color: #FF9500;
+    border: none;
+    border-radius: 6px;
+    padding: 7px 13px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: none;
+
+    &:hover {
+        background-color: #CC7700;
+    }
+
+    &:visited {
+        color: white;
+    }
 }

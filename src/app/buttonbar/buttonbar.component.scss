@@ -1,0 +1,44 @@
+// Animations
+
+@keyframes appear {
+    0% {
+        transform: scale(0,0)
+    } 50% {
+        transform: scale(1.1, 1.1)
+    } 100% {
+        transform: scale(1,1)
+    }
+}
+
+// Elements
+
+.button-bar__backdrop {
+    background: #E4F9FB;
+}
+
+.icon {
+    transform: scale(0,0);
+    padding: 30px 0px;
+    animation: 0.8s appear;
+    animation-fill-mode: forwards;
+}
+
+.icon__row div:nth-child(2) {animation-delay: 0.2s}
+.icon__row div:nth-child(3) {animation-delay: 0.4s}
+.icon__row div:nth-child(4) {animation-delay: 0.6s}
+.icon__row div:nth-child(5) {animation-delay: 0.8s}
+.icon__row div:nth-child(6) {animation-delay: 1s}
+
+.icon__image {
+    height: 60px;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.icon__desc {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}

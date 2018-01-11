@@ -6,14 +6,16 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { TopbarComponent } from './topbar/topbar.component';
 import { BannerComponent } from './banner/banner.component';
-import { EventbarComponent } from './eventbar/eventbar.component';
+import { ButtonbarComponent } from './buttonbar/buttonbar.component';
+import { ReviewbarComponent } from './reviewbar/reviewbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopbarComponent,
     BannerComponent,
-    EventbarComponent
+    ButtonbarComponent,
+    ReviewbarComponent
   ],
   imports: [
     BrowserModule,

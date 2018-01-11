@@ -1,3 +1,29 @@
+// Animations
+
+@keyframes slideTop {
+    from {
+        transform: translateY(-100vh)
+    } to {
+        transform: translateY(0)
+    }
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(-100vw)
+    } to {
+        transform: translateX(0)
+    }
+}
+
+.logo-bar {
+    animation: slideTop 2s;
+}
+
+.nav-bar__ul {
+    animation: slideLeft 2s;
+}
+
 .logo-bar {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -27,6 +53,7 @@
             color: white;
             text-decoration: none;
             cursor: pointer;
+            transition: color 0.2s;
 
             &:hover {
                 color: #FFD800;
