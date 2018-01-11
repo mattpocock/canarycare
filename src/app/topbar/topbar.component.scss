@@ -1,0 +1,40 @@
+.logo-bar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.canary-logo {
+    height: 91px;
+    margin: auto;
+    display: block;
+}
+
+.nav-bar {
+    background-color: #00C7D9;
+}
+
+.nav-bar__ul {
+    list-style: none;
+    color: white;
+    padding: 18px 0px;
+    margin: 0;
+    li {
+        display: inline-block;
+        margin: 0px 35px;
+        font-size: 17px;
+        
+        a {
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+
+            &:hover {
+                color: #FFD800;
+                
+            }
+            &:visited {
+                color: white;
+            }
+        }
+    }    
+}

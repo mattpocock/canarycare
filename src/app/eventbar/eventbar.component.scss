@@ -1,0 +1,59 @@
+// Event Bar Background
+
+.event-bar__background {
+    background: #eee;
+}
+
+.event-bar__title {
+    margin: 20px 0px;
+}
+
+// Event Boxes
+
+.event__container {
+    height: 80px;
+    background-color: white;
+    padding: 10px;
+    width: 48%;
+    margin: 0px 1%;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+
+    @media only screen and (max-width: 668px) {
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+}
+
+.event__icon {
+    font-size: 40px;
+    line-height: 60px;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 20px;
+    float: left;
+}
+
+.event__title {
+    margin: 0;
+    font-size: 17px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.event__location {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.event__date {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+}

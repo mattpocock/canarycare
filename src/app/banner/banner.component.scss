@@ -1,0 +1,22 @@
+.banner {
+    background-image: url('https://canarycare.co.uk/media/banners/1170x400_Check_In.png.750x350_q95_crop-25%2C10_upscale.jpg');
+    background-size: cover;
+    height: 400px;
+    position: relative;
+
+    @media only screen and (max-width: 668px) {
+        height: 200px;
+    }
+}
+
+.banner__headline {
+    height: 60px;
+    line-height: 60px;
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 75px;
+    transform: translateY(-50%);
+}
