@@ -1,0 +1,65 @@
+// Animations
+
+@keyframes appear {
+    0% {
+        transform: scale(0,0)
+    } 50% {
+        transform: scale(1.1, 1.1)
+    } 100% {
+        transform: scale(1,1)
+    }
+}
+
+.container {
+    text-align: center;
+}
+
+.included-box {
+    text-align: center;
+    padding: 0px 0px 40px 0px;
+    transform: scale(0,0);
+    animation: 0.8s appear;
+    animation-fill-mode: forwards;
+    z-index: 98;
+}
+
+.included-box__title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    z-index: 99;
+}
+
+.included-box__desc {
+
+}
+
+.included-box__image {
+    
+}
+
+.included__row div:nth-child(2) {animation-delay: 0.2s}
+.included__row div:nth-child(3) {animation-delay: 0.4s}
+.included__row div:nth-child(4) {animation-delay: 0.6s}
+.included__row div:nth-child(5) {animation-delay: 0.8s}
+
+.included__button {
+    background-color: #FF9500;
+    border: none;
+    border-radius: 6px;
+    padding: 7px 13px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+    margin: auto;
+    text-decoration: none;
+
+    &:hover {
+        background-color: #CC7700;
+    }
+
+    &:visited {
+        color: white;
+    }
+}

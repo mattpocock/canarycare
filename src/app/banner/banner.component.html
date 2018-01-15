@@ -1,5 +1,5 @@
 <div class="container banner" [style.background]="'url('+image+')'">
-    <div class="banner__text col-xs-4" [ngClass]="className">
+    <div class="banner__text col-xs-12 col-md-4" [ngClass]="className">
         <h2 class="banner__headline">{{title}}</h2>
         <p class="banner__desc">{{desc}}</p>
         <a *ngIf="!displayButton" class="banner__button">{{buttonText}}</a>

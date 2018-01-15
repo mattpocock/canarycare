@@ -8,6 +8,9 @@ import { TopbarComponent } from './topbar/topbar.component';
 import { BannerComponent } from './banner/banner.component';
 import { ButtonbarComponent } from './buttonbar/buttonbar.component';
 import { ReviewbarComponent } from './reviewbar/reviewbar.component';
+import { IncludedComponent } from './included/included.component';
+import { PackagesComponent } from './packages/packages.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { ReviewbarComponent } from './reviewbar/reviewbar.component';
     TopbarComponent,
     BannerComponent,
     ButtonbarComponent,
-    ReviewbarComponent
+    ReviewbarComponent,
+    IncludedComponent,
+    PackagesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

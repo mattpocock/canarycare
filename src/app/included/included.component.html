@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="row included__row">
+    <h1 class="included-box__title">What's Included?</h1>
+    <div class="col-xs-3 included-box" *ngFor="let box of included">
+      <img class="included-box__image" src={{box.image}}/>
+      <h4 class="included-box__desc">{{box.title}}</h4>
+    </div>
+  </div>
+  <a class="included__button">How does it work?</a>
+</div>
